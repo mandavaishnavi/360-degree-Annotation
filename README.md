@@ -3,7 +3,7 @@
 <div align="center">
     <div>
         <a href="https://github.com/othneildrew/Best-README-Template">
-            <img src="./project_360/src/components/images/Cyrrup-Logo.png" alt="Logo" width="200">
+            <img src="./Cyrrup-Logo.png" alt="Logo" width="200">
         </a>
     </div>
 
