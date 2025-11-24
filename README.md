@@ -9,12 +9,7 @@
 
 # <center><span style="color:cyan">Documentation</span></center>
 ## <span style="color:yellow">Web Dashboard for Image Preprocessing</span>
-<i><b>Team Number: 3</i></b> <br>
-<i><b>Team Members:</b> <br>
-Karan Nijhawan (2022101122) <br>
-Palle Sreeja (2022101081) <br>
-Sanchit Jalan (2022101070) <br>
-Vaishnavi Reddy Manda(2022111018)</i> <br>
+
 
 </div>
 
