@@ -1,0 +1,51 @@
+/* TaskList.css */
+
+.task-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-box {
+  border: 1px solid #156f76;
+  /* padding: 15px; */
+  width: 200px;
+  text-align: center;
+  color: rgb(50, 47, 47);
+  background-color:#9fd7de;;
+  border-radius: 1px;
+  transition: background-color 0.3s ease-in-out;
+  margin: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.project-box:hover {
+background-color:#70abb3;;
+}
+
+.project-box p {
+font-size: small;
+}
+
+.project-box .info-card {
+height: 70px;
+width: 100%;
+bottom: 0;
+left: 0;
+right: 0;
+border-top: solid 1px #c6c3c3;
+background-color: rgb(255, 255, 255);
+}
+.Project_list_heading
+{ height: 100px;
+  padding: 10px;
+  color: white;
+  background-color: #156f76;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.Project_list_heading h1
+{ 
+  color: white;
+ 
+}

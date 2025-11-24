@@ -1,0 +1,76 @@
+.background_2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #313131;
+  background-image: url(../images/image2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    width: 750px;
+    min-height: 100vh; /* Use min-height to ensure the container takes at least the full height of the viewport */
+  }
+
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 50%;
+    max-width: 400px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    margin-top: 20vh; /* Adjust top margin to position it towards the top */
+  }
+  .form-container h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  .form-container input[type="text"] {
+    width: calc(100% - 20px); /* Adjust width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    background-color: #5f8090;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+  }
+  
+  .form-container button:hover {
+    background-color: #395b6d; /* Darker blue on hover */
+  }
+  
+  .error-message-c_proj{
+    color: black;
+    font-size: medium;
+  }

@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap'); */
+
+.background_1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #313131;
+  background-image: url(../images/image2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.drop_box {
+  flex: 1 0 auto; /* Adjust flex properties */
+  /* background-color:black; */
+  color: black;
+  margin-top: 5%;
+  max-width: 30%;
+  height: 50px; /* Set height to fit its content */
+  text-align: center;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  width: 40%;
+}
+
+
+.drop_box_box {
+  border: 2px solid rgba(43, 43, 43, 0.4);
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.647);
+  color: black;
+
+}
+
+.drop_box_head {
+  color: black;
+
+  border-bottom: 2px dotted rgba(43, 43, 43, 0.4);
+}
+
+.drop_box_head p h3{
+  color: black;
+
+  font-size: 20px;
+}
+
+.drop_box_body h3{
+  color: black;
+
+  text-align: center;
+  padding: 10px;
+}
+
+.input-label,
+.file-label {
+  color: rgb(24, 23, 23);
+  font-size: 18px; /* Increase font size for labels */
+}
+
+.input-field,
+.file-input {
+  background-color: transparent;
+  border: 1px solid #0a0202;
+  border-radius: 10px;
+  color: rgb(10, 10, 10);
+  padding: 10px; /* Adjust padding */
+  margin-top: 20px; /* Increase margin top */
+  width: 80%;
+  font-size: 16px; /* Adjust font size */
+}
+
+.file-info {
+  color: black;
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: #3a3939;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 12px 22px; /* Adjust padding */
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #5c5b5b;
+}
+
+.cancel-button,
+.import-button {
+  background-color: #17bfd6;;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  /* padding: 12px 24px; Adjust padding */
+  transition: color 0.3s ease;
+  flex-wrap: wrap;
+}
+
+.cancel-button:hover,
+.import-button:hover {
+  color: grey
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  left: 10px;
+  width: 140px;
+  background-color: transparent;
+  background-color: #3a3939;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+#fileInput
+{
+  color: black;
+}

@@ -1,0 +1,304 @@
+      
+.content {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.features h2 {
+  margin-bottom: 10px;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features ul li {
+  margin-bottom: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px ;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background-color: #333; /* Change background color as needed */
+  color: #fff; /* Change text color as needed */
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list .page-name{
+  font-size: 20px;
+}
+
+.divider {
+  border-left: 1px solid #fff; /* Adjust border style as needed */
+  height: 20px; /* Adjust height as needed */
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+}
+
+.rightNav input[type="text"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.rightNav1 {
+  display: flex;
+  align-items: center;
+}
+
+.rightNav1 input[type="text"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.rightNav button {
+  padding: 5px 10px;
+  font-size: 15px;
+  width: 170px;
+  border: none;
+  border-radius: 20px;
+  background-color: #09f; /* Change button background color as needed */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rightNav1 button {
+  padding: 5px 10px;
+  font-size: 15px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  background-color: #09f; /* Change button background color as needed */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rightNav button:hover {
+  background-color: #34b1d7; /* Change button background color on hover as needed */
+}
+
+.rightNav1 button:hover {
+  background-color: #34b1d7; /* Change button background color on hover as needed */
+}
+
+.logo img {
+  width: 50px; /* Adjust logo size as needed */
+  height: auto;
+  /* padding-right: 4px; */
+  margin: 5px;
+  margin-top: 10px;
+  margin-right: 18px;
+}
+
+.dropdown-icon {
+  display: none; /* Hide by default on larger screens */
+  cursor: pointer;
+}
+
+.dropdown-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-icon {
+      display: block;
+  }
+  .nav-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1000;
+  }
+  .nav-list.active {
+      display: flex;
+  }
+  .nav-list li {
+      margin: 0;
+      text-align: center;
+  }
+}
+
+.rightNav .sign-in {
+  padding: 8px 20px; /* Adjust padding as needed */
+  font-size: 22px;
+  border: none;
+  border-radius: 20px;
+  background-color: #5f8090; /* Change button background color as needed */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.rightNav .sign-in:hover {
+  background-color: #395b6d; /* Change button background color on hover as needed */
+}
+
+.rightNav1 .create_new_project {
+  padding: 8px 20px; /* Adjust padding as needed */
+  font-size: 22px;
+  border: none;
+  border-radius: 20px;
+  width: 250px;
+  margin-left: 10px;
+  background-color: #5f8090; /* Change button background color as needed */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rightNav1 .create_new_project:hover {
+  background-color: #395b6d; /* Change button background color on hover as needed */
+}
+
+
+.rightNav1 .add_new_label {
+  padding: 8px 20px; /* Adjust padding as needed */
+  font-size: 22px;
+  border: none;
+  width: 200px;
+  border-radius: 20px;
+  background-color:rgb(124, 151, 168);; /* Change button background color as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rightNav1 .add_new_label:hover {
+  background-color: #87b9cf9f; /* Change button background color on hover as needed */
+}
+
+.rightNav1 .add_image_button {
+  padding: 8px 20px; /* Adjust padding as needed */
+  font-size: 22px;
+  border: none;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: rgb(124, 151, 168); /* Change button background color as needed */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rightNav1 .add_image_button:hover {
+  background-color: #87b9cf9f; /* Change button background color on hover as needed */
+}
+
+.homepage {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.logo-container img {
+  width: 150px; /* Adjust logo size as needed */
+}
+
+.intro {
+  margin-top: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #09f; /* Change button background color as needed */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #34b1d7; /* Change button background color on hover as needed */
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-section input[type="text"] {
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.get-started_login {
+  background-color: #65afb9;
+  width: 250px;
+  color: black;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started_login:hover {
+  background-color: rgb(124, 181, 200); 
+}  
+
+.panoramic-image-container {
+  position: relative;
+  width: 100%;
+  height: 675px; /* Adjust the height of the container as needed */
+  overflow: hidden; /* Ensure images don't overflow */
+}
+
+.panoramic-image {
+  width: 100%;
+  max-height: 100%;
+  display: block; /* Ensure proper rendering */
+  margin: 0 auto; /* Center the image horizontally */
+} 
